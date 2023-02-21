@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 320px;
+    /* for left right margin */
+    margin-inline: auto;
+    height: 600px;
+    background-image: url(../images/call_bg.avif);
+    margin: auto;
+    border-radius: 50px;
+    margin-top: 20px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+h3 {
+    color: white;
+    position: absolute;
+    text-align: center;
+    padding: 70px 110px;
+    word-spacing: 3px;
+}
+
+#sim {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    padding: 130px 90px;
+}
+
+#number {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    padding-top: 115px;
+    padding-left: 108px;
+    box-sizing: border-box;
+}
+
+#icons {
+    position: absolute;
+    margin-top: 400px;
+    width: 250px;
+    height: 80px;
+    margin-left: 35px;
+    /* border: 2px solid #ffffff; */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+#icons img {
+    width: 40px;
+    height: 40px;
+}
+
+@keyframes animation1 {
+    0% {
+        transform: translate(-25px);
+    }
+}
+
+#img1 {
+    margin: 20px;
+    animation: animation1 1s linear infinite alternate;
+}
+
+@keyframes animation2 {
+    0% {
+        transform: scale(1.2);
+    }
+}
+
+#img2 {
+    border: 3px solid rgb(230, 217, 217);
+    opacity: 0.8;
+    border-radius: 50%;
+    padding: 15px;
+    align-self: baseline;
+    animation: animation2 1s linear infinite alternate;
+}
+
+@keyframes animation3 {
+    0% {
+        transform: translate(25px);
+    }
+}
+
+#img3 {
+    margin: 20px;
+    animation: animation3 1s linear infinite alternate;
+}
+
+@keyframes animation4 {
+    0% {
+        transform: translateY(25px);
+    }
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    margin-top: 500px;
+    /* padding-left: 8%; */
+    word-spacing: 3px;
+    animation: animation4 1s linear infinite alternate;
+}
